@@ -13,7 +13,6 @@ public class UserTest
 	UserDAOImpl udi=new UserDAOImpl();
 	
 	@Test
-	@Ignore
 	public void addUser()
 	{
 		User u=new User();
